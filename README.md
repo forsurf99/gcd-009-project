@@ -55,11 +55,12 @@ that the end user understand the meaning of the signal names, such as, BodyAcc, 
 
 The script working can be summarized as follows:
 
-1 It combines the training and test data sets / variables using *rbind()* and *cbind()* functions.
-2 Only the feature / variable names containing words "mean" or "std" have been selected.
-3 Descriptive names of the activities have been added towards the end as explained in inline documentation.
-4 The mean for each variable for distinct subject & activity combination is calculated using *ddply()* and *colMeans()* functions.
-5 The important variable names to look at are *allData* and *tidyData*.
+1. It combines the training and test data sets / variables using *rbind()* and *cbind()* functions.
+2. Only the feature / variable names containing words "mean" or "std" have been selected.
+3. Descriptive names of the activities have been added towards the end as explained in inline documentation.
+4. The mean for each variable for distinct subject & activity combination is calculated using *ddply()* and *colMeans()* functions.
+5. The important variable names to look at are *allData* and *tidyData*.
+
 
 #### Running the script
 
