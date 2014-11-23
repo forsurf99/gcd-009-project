@@ -171,7 +171,7 @@ There were 30 volunteers (aka subjects) performing 6 different activities. Selec
 
 #### Sample Data
 
-`
+```
    Subject           Activity        timeSignal.BodyAcc.mean.X.Axis    timeSignal.BodyAcc.mean.Y.Axis
 1        1             LAYING                      0.2215982                   -0.040513953
 2        1            SITTING                    0.2612376                   -0.001308288
@@ -186,7 +186,7 @@ There were 30 volunteers (aka subjects) performing 6 different activities. Selec
 11       2 WALKING_DOWNSTAIRS     0.2776153                   -0.022661416
 12       2   WALKING_UPSTAIRS         0.2471648                   -0.021412113
 13       3             LAYING                      0.2755169                   -0.018955679
-`
+```
 
 
 
