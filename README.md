@@ -54,6 +54,7 @@ name a.k.a. variable names are lightly processed to make them more descriptive. 
 that the end user understand the meaning of the signal names, such as, BodyAcc, BodyGyroMag etc.
 
 The script working can be summarized as follows:
+
 1 It combines the training and test data sets / variables using *rbind()* and *cbind()* functions.
 2 Only the feature / variable names containing words "mean" or "std" have been selected.
 3 Descriptive names of the activities have been added towards the end as explained in inline documentation.
