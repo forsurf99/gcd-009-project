@@ -8,34 +8,34 @@ The explaination of features selected in original data set and how they were pro
 
 ## Brief note about signals
 
-Raw signal data from the accelerometer and gyroscope in smarphones were measured and processed to produce various variables in the data set. A few of these variables are based on time domain signal and others are based on frequency domain signals. Teh explanation and purpose of these signals is explained in the link given above. For the rest of this document it is assumed that the end user either understands what these signals mean or has access to additional material that explain the purpose of these signals.
+Raw signal data from the accelerometer and gyroscope in smarphones were measured and processed to produce various variables in the data set. A few of these variables are based on time domain signal and others are based on frequency domain signals. The explanation and purpose of these signals is explained in the link given above. For the rest of this document it is assumed that the end user either understands what these signals mean or has access to additional material that explain the purpose of these signals.
 
 ### Signals based on time domain signals 
 
 These are :
-**BodyAcc**
-**GravityAcc**
-**BodyAccJerk**
-**BodyGyro*
-**BodyGyroJerk**
-BodyAccMag
-GravityAccMag
-BodyAccJerkMag
-BodyGyroMag
-BodyGyroJerkMag
+* **BodyAcc**
+* **GravityAcc**
+* **BodyAccJerk**
+* **BodyGyro**
+* **BodyGyroJerk**
+* BodyAccMag
+* GravityAccMag
+* BodyAccJerkMag
+* BodyGyroMag
+* BodyGyroJerkMag
 
 The signal highlighted in **bold** font are available for 3 axis - X, Y, and Z.
 
 ### Signals based on frequency domain signals
 
 These are :
-**BodyAcc**
-**BodyAccJerk**
-**BodyGyro**
-BodyAccMag
-BodyAccJerkMag
-BodyGyroMag
-BodyGyroJerkMag
+* **BodyAcc**
+* **BodyAccJerk**
+* **BodyGyro**
+* BodyAccMag
+* BodyAccJerkMag
+* BodyGyroMag
+* BodyGyroJerkMag
 
 The signal highlighted in **bold** font are available for 3 axis - X, Y, and Z.
 
@@ -70,8 +70,8 @@ Some signals are measured for 3 axis - X, Y, and Z. The variables that are based
 #### Other variables
 
 In addition, following variables are used in the tidy data set.
-*_Subject_ : This numeric value corrsponds to one of 30 volunteers participated in the tests. Range : 1 to 30
-*_Activity_ : This string value represents one of 6 activities
+* _Subject_ : This numeric value corrsponds to one of 30 volunteers participated in the tests. Range : 1 to 30
+* _Activity_ : This string value represents one of 6 activities
   * WALKING
   * WALKING_UPSTAIRS
   * WALKING_DOWNSTAIRS
@@ -82,6 +82,7 @@ In addition, following variables are used in the tidy data set.
 #### Variable names in tidy data set
 
 Based on above explanation, here is list of all variables in tidy data set.
+
 Subject                                
 Activity                               
 timeSignal.BodyAcc.mean.X.Axis         
@@ -170,7 +171,7 @@ There were 30 volunteers (aka subjects) performing 6 different activities. Selec
 
 #### Sample Data
 
-(
+
    Subject           Activity        timeSignal.BodyAcc.mean.X.Axis    timeSignal.BodyAcc.mean.Y.Axis
 1        1             LAYING                      0.2215982                   -0.040513953
 2        1            SITTING                    0.2612376                   -0.001308288
@@ -186,14 +187,11 @@ There were 30 volunteers (aka subjects) performing 6 different activities. Selec
 12       2   WALKING_UPSTAIRS         0.2471648                   -0.021412113
 13       3             LAYING                      0.2755169                   -0.018955679
 
-)
+
 
 
 
 ## Feature selection in original data set
-
-Feature Selection 
-=================
 
 The features selected for the original database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
 
