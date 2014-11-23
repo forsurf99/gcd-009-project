@@ -24,7 +24,7 @@ are available on the machine when the script will run.
 
 Most of the coding along with inline documentation should be self-explainatory. From the viewpoing
 of good coding practices, this code can be easily broken down into multiple functions. However
-the script implements all the tasks in a big monolithic code for the easy readability for the grader.
+the script implements all the tasks in a big monolithic code to improve readability for the grader.
 
 It is also assumed that the original data set and all other files are included in the folder "UCI HAR Dataset"
 and this folder is directly copied into the 'working directory'. The file paths in the script are hardcoded
@@ -45,7 +45,7 @@ However at the end of all these task implementation, the tidy data has ...
 
 #### Working
  
-The script reads required data set files as required and merges them to form a**allData** dataset.
+The script reads required data set files as required and merges them to form **allData** dataset.
 This data set includes all required columns/variables with subject and activity information. Final
 tidy data set is available in **tidyData** variable.
 
@@ -54,15 +54,15 @@ name a.k.a. variable names are lightly processed to make them more descriptive. 
 that the end user understand the meaning of the signal names, such as, BodyAcc, BodyGyroMag etc.
 
 The script working can be summarized as follows:
-1. It combines the training and test data sets / variables using *rbind()* and *cbind()* functions.
-2. Only the feature / variable names containing words "mean" or "std" have been selected.
-3. Descriptive names of the activities have been added towards the end as explained in inline documentation.
-4. The mean for each variable for distinct subject & activity combination is calculated using *ddply()* and *colMeans()* functions.
-5. The important variable names to look at are *allData* and *tidyData*.
+1 It combines the training and test data sets / variables using *rbind()* and *cbind()* functions.
+2 Only the feature / variable names containing words "mean" or "std" have been selected.
+3 Descriptive names of the activities have been added towards the end as explained in inline documentation.
+4 The mean for each variable for distinct subject & activity combination is calculated using *ddply()* and *colMeans()* functions.
+5 The important variable names to look at are *allData* and *tidyData*.
 
 #### Running the script
 
-Teh script can be run using follwing function.
+The script can be run using follwing function.
 
 *source('run_analysis.R')*
 
