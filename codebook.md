@@ -172,20 +172,21 @@ There were 30 volunteers (aka subjects) performing 6 different activities. Selec
 #### Sample Data
 
 ```
-   Subject           Activity        timeSignal.BodyAcc.mean.X.Axis    timeSignal.BodyAcc.mean.Y.Axis
+   Subject           Activity timeSignal.BodyAcc.mean.X.Axis timeSignal.BodyAcc.mean.Y.Axis
 1        1             LAYING                      0.2215982                   -0.040513953
-2        1            SITTING                    0.2612376                   -0.001308288
-3        1           STANDING                  0.2789176                   -0.016137590
-4        1            WALKING                   0.2773308                   -0.017383819
-5        1 WALKING_DOWNSTAIRS     0.2891883                   -0.009918505
-6        1   WALKING_UPSTAIRS         0.2554617                   -0.023953149
-7        2             LAYING                     0.2813734                   -0.018158740
-8        2            SITTING                    0.2770874                   -0.015687994
-9        2           STANDING                  0.2779115                   -0.018420827
-10       2            WALKING                   0.2764266                   -0.018594920
-11       2 WALKING_DOWNSTAIRS     0.2776153                   -0.022661416
-12       2   WALKING_UPSTAIRS         0.2471648                   -0.021412113
+2        1            SITTING                      0.2612376                   -0.001308288
+3        1           STANDING                      0.2789176                   -0.016137590
+4        1            WALKING                      0.2773308                   -0.017383819
+5        1 WALKING_DOWNSTAIRS                      0.2891883                   -0.009918505
+6        1   WALKING_UPSTAIRS                      0.2554617                   -0.023953149
+7        2             LAYING                      0.2813734                   -0.018158740
+8        2            SITTING                      0.2770874                   -0.015687994
+9        2           STANDING                      0.2779115                   -0.018420827
+10       2            WALKING                      0.2764266                   -0.018594920
+11       2 WALKING_DOWNSTAIRS                      0.2776153                   -0.022661416
+12       2   WALKING_UPSTAIRS                      0.2471648                   -0.021412113
 13       3             LAYING                      0.2755169                   -0.018955679
+
 ```
 
 
